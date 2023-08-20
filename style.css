@@ -52,6 +52,7 @@ body
     align-items: center;
     gap:10px;
     height: 50px;
+
 }
 
 .navbar a
@@ -63,7 +64,7 @@ body
 
 .navbar a:hover
 {
-    color: red;
+    color: rgb(255, 198, 151);
     transition: 0.5s;
 }
 
@@ -110,7 +111,7 @@ body
 
 .button1:hover
 {
-    background-color: rgb(216, 172, 137);
+    background-color: rgb(255, 223, 197);
     color:white;
     transition: 0.7s;
     cursor: pointer;
@@ -130,18 +131,36 @@ body
     gap: 20px;
 }
 
+.ProjectsList
+{
+    padding: 40px;    
+}
+
 .project
 {
-    border: 1px solid black;
-    border-radius: 30px;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 80px;
     padding-top: 20px;
+}
+
+.project:hover
+{
+    background-color: rgb(231, 208, 188);
+    color: white;
+    transition: 0.5s;
+}
+
+.project img
+{
+    height: 200px;
+    width: 200px;
 }
 
 .navbar button
 {
-    background-color: rgb(216, 172, 137);
     width: fit-content;
     padding: 10px;
+    font-size: 0.85em;
 }
 
 .hide
@@ -166,6 +185,7 @@ body
     margin: auto;
     text-align: center;
     padding: 20px 100px 75px 100px;
+    border-radius: 30px;
 }
 .hflex{
     display: flex;
@@ -175,11 +195,6 @@ body
     box-sizing: border-box;
 
 
-}
-.navbar button{
-    width: fit-content;
-    padding:10px;
-    background-color: rgb(216, 172, 137);
 }
 
 .icons{
@@ -201,3 +216,43 @@ body
     margin-top:0;
 }
 
+.Aicon
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+}
+
+.servicesSection
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: center;
+}
+
+.services
+{
+    margin: auto;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.service
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgb(239, 239, 239);
+}
+
+.service:hover
+{
+    background-color: rgb(255, 223, 197);
+    transition: 1s;
+}
