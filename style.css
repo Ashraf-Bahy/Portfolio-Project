@@ -1,3 +1,35 @@
+#sec1-h1 {
+    width: 200px;
+}
+
+#sec1 {
+    background-color: #b6d5e1;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-bottom: 50px;
+    background-image: url('https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-size: contain;
+    background-size: cover;
+
+}
+.rfoldbut{
+    background-color: #65799b;
+    border-radius: 20px;
+    border-style: none;
+    height: 40px;
+    width: 120px;
+    font-size: medium;
+}
+.fadedbut{
+    background-color: transparent ;
+}
+
+.box{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
 body
 {
     height: 100%;
