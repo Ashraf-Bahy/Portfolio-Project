@@ -61,6 +61,12 @@ body
     font-size: 1.2em;
 }
 
+.navbar a:hover
+{
+    color: red;
+    transition: 0.5s;
+}
+
 .taps
 {
     display: flex;
@@ -68,6 +74,79 @@ body
     align-items: center;
     width: 40%;
     gap:10px;
+
+}
+
+
+.ProjectsList
+{
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.selection
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px ;
+}
+
+.ProjectsList h1,h4{
+    margin: 10px;
+}
+
+.button1
+{
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid #7a2a0f;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.button1:hover
+{
+    background-color: rgb(216, 172, 137);
+    color:white;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.clicked
+{
+    background-color: rgb(216, 172, 137);
+    color:white;
+}
+
+.ProjectsGrid
+{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.project
+{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding-top: 20px;
+}
+
+.navbar button
+{
+    background-color: rgb(216, 172, 137);
+    width: fit-content;
+    padding: 10px;
+}
+
+.hide
+{
+    display: none;
 }
 
 .items{
