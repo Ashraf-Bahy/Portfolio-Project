@@ -3,26 +3,23 @@
 }
 
 #sec1 {
-    background-color: #b6d5e1;
     padding-top: 50px;
     padding-left: 70px;
     padding-bottom: 50px;
     background-image: url('https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
-    background-size: contain;
     background-size: cover;
 
 }
 .rfoldbut{
-    background-color: #65799b;
+    background-color: #591c08;
     border-radius: 20px;
     border-style: none;
     height: 40px;
     width: 120px;
     font-size: medium;
+    color: rgb(255, 255, 255);
 }
-.fadedbut{
-    background-color: transparent ;
-}
+
 
 .box{
     display: flex;
@@ -35,9 +32,10 @@ body
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
-h1
+.navbar h1
 {
     color: white;
 }
@@ -46,7 +44,7 @@ h1
 {
     position: sticky;
     top: 0px;
-    background-color: #529471;
+    background-color: #7a2a0f;
     margin: 0;
     padding: 10px;
     display: flex;
@@ -71,3 +69,56 @@ h1
     width: 40%;
     gap:10px;
 }
+
+.items{
+    border-radius: 10px;
+    border: 1px solid ;
+    width: 300px;
+    height: 170px;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+#sec3{
+    background-image: url('https://images.pexels.com/photos/743986/pexels-photo-743986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    padding: 20px 100px 75px 100px;
+}
+.hflex{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+
+}
+.navbar button{
+    width: fit-content;
+    padding:10px;
+    background-color: rgb(216, 172, 137);
+}
+
+.icons{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.name{
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+}
+.job{
+    text-align: left;
+    margin-top:0;
+}
+
