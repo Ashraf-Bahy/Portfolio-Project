@@ -26,3 +26,19 @@ const selectbutton = function (event)
 
 for (const button of buttons)
     button.addEventListener("click", (selectbutton));
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+const secbuttons = document.querySelectorAll(".taps a");
+const sections = document.querySelectorAll("section");
+
+const scr = function (i)
+{
+    const section = sections[i];
+    section.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
+}
+
+secbuttons.forEach((secbutton, index) => {
+    secbutton.addEventListener("click", () =>scr(index))
+});

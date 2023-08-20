@@ -64,6 +64,7 @@ body
 
 .navbar a:hover
 {
+    cursor: pointer;
     color: rgb(255, 198, 151);
     transition: 0.5s;
 }
