@@ -312,6 +312,7 @@ background-color: #dad8d9;
     display: flex;
     width: 100%;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .service
