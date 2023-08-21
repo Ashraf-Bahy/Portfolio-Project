@@ -2,7 +2,7 @@
     width: 200px;
 }
 
-#sec1 {
+.sec1 {
     padding-top: 50px;
     padding-left: 70px;
     padding-bottom: 50px;
@@ -35,30 +35,61 @@ body
     font-family: 'Roboto', sans-serif;
 }
 
-.navbar h1
-{
-    color: white;
-}
 
-.navbar 
+.navbar-flex
 {
-    position: sticky;
-    top: 0px;
-    background-color: #7a2a0f;
-    margin: 0;
-    padding: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap:10px;
     height: 50px;
+}
 
+.navbar 
+{
+    position: fixed;
+    top: 0px;
+    background-color: #7a2a0f00;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    transition: 0.7s;
+}
+
+.navbar-scrolled
+{
+    background-color: #7a2a0f;
+    transition: 0.7s;
 }
 
 .navbar a
 {
     text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.brown
+{
+    color: #7a2a0f;
+}
+
+.a-scrolled
+{
     color: white;
+    transition: 0.7s;
+}
+
+.h1-scrolled
+{
+    color:white;
+    transition: 0.7s;
+}
+
+.navbar button a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
     font-size: 1.2em;
 }
 

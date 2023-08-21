@@ -42,3 +42,23 @@ const scr = function (i)
 secbuttons.forEach((secbutton, index) => {
     secbutton.addEventListener("click", () =>scr(index))
 });
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+window.addEventListener('scroll', function() {
+    const nav = document.querySelector('.navbar');
+    const anchs = document.querySelectorAll('.navbar a');
+    const head = document.querySelector('.navbar h1');
+    const firstSection = document.querySelector('.sec1');
+    const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+  
+    if (scrollPosition >= firstSection.offsetHeight) {
+      nav.classList.add('navbar-scrolled');
+      anchs.forEach(anch => {anch.classList.add('a-scrolled')});
+      head.classList.add('h1-scrolled');
+    } else {
+      nav.classList.remove('navbar-scrolled');
+      anchs.forEach(anch => {anch.classList.remove('a-scrolled')});
+      head.classList.remove('h1-scrolled');
+    }
+  });
