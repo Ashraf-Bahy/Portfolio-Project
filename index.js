@@ -32,6 +32,7 @@ for (const button of buttons)
 
 const secbuttons = document.querySelectorAll(".taps a");
 const sections = document.querySelectorAll("section");
+const footsecbuttons = document.querySelectorAll(".taps2 a");
 
 const scr = function (i)
 {
@@ -41,6 +42,10 @@ const scr = function (i)
 
 secbuttons.forEach((secbutton, index) => {
     secbutton.addEventListener("click", () =>scr(index))
+});
+
+footsecbuttons.forEach((footsecbutton, index) => {
+    footsecbutton.addEventListener("click", () =>scr(index))
 });
 
 //////////////////////////////////////////////////////////////////////////////////////////
