@@ -175,11 +175,16 @@ img
 
 @media screen and (max-width: 1000px) {
     .ProjectsGrid {
-        /* 8. TODO : Add grid-template-columns property to make it 2 columns only of equal size */
         grid-template-columns: repeat(2, auto);
     }
-}
 
+}
+@media screen and (max-width: 550px) {
+    .ProjectsGrid {
+        grid-template-columns: repeat(1, auto);
+    }
+
+}
 .ProjectsList
 {
     padding: 40px;    
@@ -230,7 +235,7 @@ img
     background-image: url('https://images.pexels.com/photos/743986/pexels-photo-743986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: fit-content;
+
     margin: auto;
     text-align: center;
     padding: 20px 100px 75px 100px;
@@ -267,20 +272,20 @@ img
 
 #footer{
     display: flex;
-    justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
+    justify-content: space-around;
+    
     background-color: #dad8d9;
     padding-top: 15px;
     padding-bottom: 5px;
     margin-top: 30px;
+  
 }
 
 .taps2{
     display: flex;
     justify-content:space-between;
     width:30%;
-    margin-left: 0px;
+    flex-wrap: wrap;
 }
 .taps2 a
 {
@@ -289,6 +294,7 @@ img
     font-size: 1.2em;
     font-weight: bold;
     cursor: pointer;
+
 }
 
 #footer span{
